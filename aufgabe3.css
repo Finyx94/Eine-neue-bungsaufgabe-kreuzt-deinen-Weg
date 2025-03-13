@@ -1,0 +1,15 @@
+body{
+  background-color: rgba(222, 10,150, 10%);
+}
+.listen-container{
+  li{
+    a{
+      color: red;
+      text-decoration: none;
+      &:hover{
+        color: blue;
+        text-decoration: underline;
+      }
+    }
+  }
+}
